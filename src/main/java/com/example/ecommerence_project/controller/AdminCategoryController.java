@@ -1,4 +1,4 @@
 package com.example.ecommerence_project.controller;
 
-public class AdminCategoryController {
+public class    AdminCategoryController {
 }

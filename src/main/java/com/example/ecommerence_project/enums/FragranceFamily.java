@@ -1,4 +1,13 @@
 package com.example.ecommerence_project.enums;
 
-public class FragranceFamily {
+public enum FragranceFamily {
+
+    WOODY,
+    FRESH,
+    CITRUS,
+    FRUITY,
+    AQUATIC,
+    SPICY,
+    LEATHER,
+    AROMATIC
 }
