@@ -1,4 +1,6 @@
 package com.example.ecommerence_project.enums;
 
-public class RoleName {
+public enum RoleName {
+    ROLE_ADMIN,
+    ROLE_USER
 }
