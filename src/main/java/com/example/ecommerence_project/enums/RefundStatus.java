@@ -1,4 +1,8 @@
 package com.example.ecommerence_project.enums;
 
-public class RefundStatus {
+public enum RefundStatus {
+    PENDING,
+    APPROVED,
+    REJECTED,
+    COMPLETED
 }

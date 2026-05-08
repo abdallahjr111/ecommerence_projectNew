@@ -1,4 +1,8 @@
 package com.example.ecommerence_project.enums;
 
-public class PaymentMethod {
+public enum PaymentMethod {
+    CREDIT_CARD,
+    DEBIT_CARD,
+    CASH_ON_DELIVERY,
+    BANK_TRANSFER
 }

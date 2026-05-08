@@ -7,7 +7,9 @@ import jakarta.persistence.Table;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.CreationTimestamp;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,9 +32,16 @@ public class Category {
     @Column(length = 500)
     private String description;
 
+    @Column(length = 255)
+    private String imageUrl;
+
     @Column(nullable = false)
     @Builder.Default
     private Boolean active = true;
+
+    @CreationTimestamp
+    @Column(nullable = false, updatable = false)
+    private LocalDateTime createdAt;
 
     /*
      * One Category -> Many Products
